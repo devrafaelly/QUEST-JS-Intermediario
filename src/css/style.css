@@ -1,0 +1,90 @@
+html{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    height: 420px;
+    width: 800px;
+    background-image: url(/src/images/bg-repeat.jpg);
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo .mensagem-duvida{
+    width: 300px;
+}
+
+.conteudo .mensagem-duvida h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 11px;
+}
+
+.conteudo .mensagem-duvida p{
+    color: white;
+}
+
+.conteudo .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 340px;
+    height: 378px;
+    padding: 20px;
+}
+
+.conteudo .formulario .input{
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #000;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.conteudo .formulario .input.mensagem{
+    height: 100px;
+    resize: none;
+}
+
+
+.conteudo .formulario .input.preenchido{
+    border-color: #00C22B;
+}
+
+.conteudo .formulario .input.nao-preenchido{
+    border-color: #F52E2E;
+}
+
+.conteudo .formulario span{
+    color: #F52E2E;
+    font-size: 8px;
+    margin-top: -7px;
+    display: none;
+}
+
+.conteudo .formulario span.erro-span{
+    display: block;
+}
+
+.conteudo .formulario .btn-enviar{
+    width: 300px;
+    height: 40px;
+    background-color: #3CCC87;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
