@@ -10,7 +10,7 @@ html{
 main{
     height: 420px;
     width: 800px;
-    background-image: url(/src/images/bg-repeat.jpg);
+    background-image: url(src/images/bg-repeat.jpg);
     background-position: center center;
     display: flex;
     align-items: center;
